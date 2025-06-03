@@ -4,20 +4,18 @@
     font-style: normal;
     display: flex;
     flex-direction: column;
-
-
-
+    justify-content: center;
+    line-height: 1.3;
+    text-underline-offset: 4px;
 
 }
 
 .header {
     display: flex;
-    justify-content: center;
-
-
     margin: 92px 24px 96px;
     height: 105px;
     font-size: 18px;
+    gap:40px;
 }
 
 .header__links-list {
@@ -44,10 +42,46 @@
 
 .header__logo-image {
     height: 100%;
-
 }
 .header__menu{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left:26px;
+}
+.header__address{
+    justify-self: end;
+    margin-left: 153px;
+}
+.cover{
+    height: 100vh;
+    background-image:url("../images/cover.jpg");
+    background-size: cover;
+}
+.cover__title{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.aligned-text{
+    font-size: 70px;
+    letter-spacing: 25px;
+    margin-top: 80px;
+
+}
+.aligned-text_center{
+    font-size: 70px;
+    letter-spacing: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.aligned-text_right{
+    font-size: 70px;
+    letter-spacing: 25px;
+    display: flex;
+    justify-content: end;
 }
